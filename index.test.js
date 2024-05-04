@@ -1,4 +1,4 @@
-const { division } = require(".");
+const { division } = require("./src");
 
 it("should be 2", () => {
   expect(division(4, 2)).toBe(2);
