@@ -1,9 +1,11 @@
 const division = (a, b) => {
 
-  // const hola = 'hola';
+  const hola = 'hola';
+
+  console.log(hola);
 
   if (b === 0) {
-    return 'Division by zero'; 
+    return 'Division by zero!'; 
   }
   console.log("object");
   return a / b;
