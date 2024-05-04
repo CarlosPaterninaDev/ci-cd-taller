@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.2.0",
+    "globals": "^15.1.0"
   }
 }
