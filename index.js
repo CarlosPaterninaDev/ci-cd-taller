@@ -1,6 +1,6 @@
 const division = (a, b) => {
   if (b === 0) {
-    return 'Division by zero'; 
+    return 'Division by zero!'; 
   }
   return a / b;
 };
