@@ -50,6 +50,7 @@ jobs:
           cache: "npm"
       - run: npm install
       - run: npm run test
+    needs: linter
 
   deploy:
     environment:
